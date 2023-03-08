@@ -26,7 +26,9 @@ class TrueEnding extends MusicBeatState
 	{
 		
 		
-		
+		#if android
+addVirtualPad(FULL, A_B);
+#end
 		super.create();
 		bgColor = 0xFF4D1B30;
 		var mural:FlxSprite = new FlxSprite();
@@ -77,4 +79,3 @@ class TrueEnding extends MusicBeatState
 	};
 	
 }
-
