@@ -34,6 +34,9 @@ class GameOverState extends FlxTransitionableState
 		// bf.scrollFactor.set();
 		add(bf);
 		bf.playAnim('firstDeath');
+		#if android
+		addVirtualPad(NONE, A_B);
+		#end
 
 		FlxG.camera.follow(bf, LOCKON, 0.001);
 		
