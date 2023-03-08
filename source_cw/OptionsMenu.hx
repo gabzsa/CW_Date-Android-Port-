@@ -38,9 +38,7 @@ class OptionsMenu extends MusicBeatState
 		new OptionCatagory("Appearance", [
 			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
 			new RainbowFPSOption("Make the FPS Counter Rainbow (Only works with the FPS Counter toggled on and Flashing Lights toggled off)")
-			
-			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay.")
-			
+			 
 		]),
 
 		new OptionCatagory("HUD", [
