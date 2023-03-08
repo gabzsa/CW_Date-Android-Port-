@@ -15,6 +15,9 @@ class Ending extends MusicBeatState
 	
 	override function create() 
 	{
+	#if android
+addVirtualPad(NONE, A_B);
+#end
 		super.create();
 		
 		
